@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+    
+</head>
+<body>
+<div id="top">
+<input type="submit" value="home" onclick="login('home')" id="defaultOpen">
+<input type="submit" value="Login" onclick="login_show('login')">
+<input type="submit" value="Submit" onclick="login_show('signin')">
+<br></br>
+</div>
+
+<div class="log_in" id="login">
+    <input type="text" id="user" placeholder="username">
+    <input type="text" id="pass" placeholder="password">
+    <input type="submit" value="Login_as_admin" onclick="login_in('admin_page')">
+    <input type="submit" value="Login_as_user" onclick="login_in('user_page')">
+</div>
+<div id="signin" class="log_in" >
+    <input type="text" id="firstname" placeholder="firstname">
+    <input type="text" id="lastname" placeholder="lastname">
+    <input type="text" id="username" placeholder="username">
+    <input type="text" id="password" placeholder="password">
+    <input type="text" id="email" placeholder="email">
+    <input type="submit" value="Create account" onclick="create_account()">
+    
+</div>
+</div>  
+<div id="home" class="Content">
+    <h1 id="heading">loading..</h1>
+    <p id="paraf1">loading..</p>
+    <p>...</p>
+    <p>for read more of this article please <span onclick="login_show('login')">Login </span> or Submit</p>
+    <p id="paraf2">loading..</p>
+</div>
+<div id="admin_page" class="Content">
+
+    <br/>
+    <input type="submit" value="List db" onclick="list_db()">
+    <p id="dbtable">am reusit</p>
+ 
+</div>
+<div id="user_page" class="Content">
+    <h1 id="heading1">loading..</h1>
+    <p id="paraf11">loading..</p>   
+    <p id="paraf21">loading..</p>
+    <p id="paraf22">loading..</p>
+</div>
+<p id="mos"></p>
+
+ <script src="scrpt1.js"></script>
+
+</body>
+</html>

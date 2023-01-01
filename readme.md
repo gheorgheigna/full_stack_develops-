@@ -8,6 +8,9 @@
  #simple html, js <br/>
  #react
  
+ create a user account <br>
+ login like a user or admin <br/>
+ like an admin u can list the db<br/>
  
  
  

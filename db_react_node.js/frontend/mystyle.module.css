@@ -1,0 +1,10 @@
+.bigblue {
+    color: DodgerBlue;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+table, td{
+    border:1px solid black ;
+
+}
